@@ -1,0 +1,25 @@
+/**index.wxss**/
+.title_first{
+  font-size: 20px;
+  color: #888;
+  margin: 35px 0 15px 0;
+}
+.title_second{
+  font-size: 26px;
+  color: #777;
+  font-weight: 500;
+}
+.btns{
+  display: flex;
+  /* justify-content: center; */
+  margin: 15px 0;
+}
+.timebtn,.clearbtn{
+  width:120px;
+  height: 40px;
+  border:1px solid #888;
+  border-radius:7px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 5px;
+}

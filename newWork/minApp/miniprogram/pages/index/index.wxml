@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+   <text class="title_first">中国现阶段人均寿命900个月</text>
+  <view>
+      <text class="title_second">1982年9月至今450个月</text>
+   </view>
+ <view class="section">
+ <view class="btns">
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+   
+    <view class="picker">
+        <view class="timebtn">换一个日期</view>   
+    </view>
+     
+  </picker>
+   <view class="clearbtn">清除记录</view>
+ 
+ </view>
+
+</view>
+
+</view>
